@@ -58,9 +58,9 @@ Week 1/ASCII/user-defined-z5.6
 Week 1/ASCII/user-defined2.6
 Week 1/SFR-trials/user-defined-z5.4color
 Week 1/SFR-trials/user-defined2.4color
-Week 1/Files_SFRH_TNG50/Files_SFRH_TNG50/*.txt
+Week 1/JWST\ project/Files_SFRH_TNG50/Files_SFRH_TNG50/*.txt
 Week 1/Files_SFRH_TNG50.zip
-Week 1/TNG_50_library/library_galaxies.txt
+Week 1/JWST\project/TNG_50_library/*
 Week 1/TNG_50_library/SFRH_gal_0.ASCII
 Week 1/TNG_50_library/SFRH_gal_1.ASCII
 Week 1/TNG_50_library/SFRH_gal_2.ASCII
@@ -81,3 +81,85 @@ Week 1/TNG_50_library/TNG50_out_17_gal_2.mass
 Week 1/TNG_50_library/TNG50_out_17_gal_3.ised
 Week 1/TNG_50_library/TNG50_out_17_gal_3.magnitudes
 Week 1/TNG_50_library/TNG50_out_17_gal_3.mass
+Week 1/JWST project/F115W_JWST_NIRCAM.txt
+Week 1/JWST project/F150W_JWST_NIRCAM.txt
+Week 1/JWST project/F200W_JWST_NIRCAM.txt
+Week 1/JWST project/F277W_JWST_NIRCAM.txt
+Week 1/JWST project/F356W_JWST_NIRCAM.txt
+Week 1/JWST project/F444W_JWST_NIRCAM.txt
+Week 1/JWST project/F0770W_JWST_MIRI.txt
+Week 1/JWST project/F1000W_JWST_MIRI.txt
+Week 1/JWST project/F1280W_JWST_MIRI.txt
+Week 1/JWST project/F1500W_JWST_MIRI.txt
+Week 1/JWST project/F1800W_JWST_MIRI.txt
+Week 1/JWST project/F2100W_JWST_MIRI.txt
+Week 1/JWST project/Files_SFRH_TNG50.zip
+Week 1/JWST project/ASCII/bc2003_lr_BaSeL_m22_chab_ssp.1
+Week 1/JWST project/ASCII/bc2003_lr_BaSeL_m22_chab_ssp.120
+Week 1/JWST project/TNG_50_library/TNG50_out_17_gal_0_age=995000000.000.hdf5
+Week 1/JWST project/TNG_50_library/TNG50_out_17_gal_0_age=995000000.000.sed
+Week 1/JWST project/TNG_50_library/TNG50_out_17_gal_0.ised
+Week 1/JWST project/TNG_50_library/TNG50_out_17_gal_0.mass
+Week 1/JWST project/TNG_50_library/TNG50_out_17_gal_1_age=995000000.000.sed
+Week 1/JWST project/TNG_50_library/TNG50_out_17_gal_1.ised
+Week 1/JWST project/TNG_50_library/TNG50_out_17_gal_1.magnitudes
+Week 1/JWST project/TNG_50_library/TNG50_out_17_gal_1.mass
+Week 1/JWST project/TNG_50_library/TNG50_out_17_gal_2_age=904000000.000.sed
+Week 1/JWST project/TNG_50_library/TNG50_out_17_gal_2.ised
+Week 1/JWST project/TNG_50_library/TNG50_out_17_gal_2.magnitudes
+Week 1/JWST project/TNG_50_library/TNG50_out_17_gal_2.mass
+Week 1/JWST project/TNG_50_library/TNG50_out_17_gal_3.ised
+Week 1/JWST project/TNG_50_library/TNG50_out_17_gal_3.magnitudes
+Week 1/JWST project/TNG_50_library/TNG50_out_17_gal_3.mass
+Week 1/JWST project/ASCII/bc2003_lr_BaSeL_m22_chab_ssp.130
+Week 1/JWST project/ASCII/bc2003_lr_BaSeL_m22_chab_ssp.192
+Week 1/JWST project/ASCII/bc2003_lr_BaSeL_m82_chab_ssp.ised_ASCII
+Week 1/JWST project/ASCII/bc2003_lr_BaSeL_m82_chab_ssp.txt
+Week 1/JWST project/ASCII/dust0-0001.1
+Week 1/JWST project/ASCII/dust0-1.1
+Week 1/JWST project/ASCII/dust0-0001.multi_mag_AB
+Week 1/JWST project/ASCII/dust0-1.multi_mag_AB
+Week 1/JWST project/ASCII/dust0-2.1
+Week 1/JWST project/ASCII/dust0-2.multi_mag_AB
+Week 1/JWST project/ASCII/dust0-05.1
+Week 1/JWST project/ASCII/dust0-5.1
+Week 1/JWST project/ASCII/dust0-05.multi_mag_AB
+Week 1/JWST project/ASCII/dust0-5.multi_mag_AB
+Week 1/JWST project/ASCII/dust0-9.1
+Week 1/JWST project/ASCII/dust0-9.multi_mag_AB
+Week 1/JWST project/ASCII/dust0-15.1
+Week 1/JWST project/ASCII/dust0-15.multi_mag_AB
+Week 1/JWST project/ASCII/m22
+Week 1/JWST project/ASCII/m22-2
+Week 1/JWST project/ASCII/m32
+Week 1/JWST project/ASCII/m42
+Week 1/JWST project/ASCII/m52
+Week 1/JWST project/ASCII/m62
+Week 1/JWST project/ASCII/m72
+Week 1/JWST project/ASCII/m82
+Week 1/JWST project/ASCII/model1-SED.20
+Week 1/JWST project/ASCII/model2-SED.20
+Week 1/JWST project/ASCII/model3-SED.20
+Week 1/JWST project/ASCII/sfrh-example.ascii_ised
+Week 1/JWST project/ASCII/sfrh-example.ascii_ised.prn
+Week 1/JWST project/ASCII/sfrh-example.prn
+Week 1/JWST project/ASCII/user-defined-z5.6
+Week 1/JWST project/ASCII/user-defined2.6
+Week 1/JWST project/SFR-trials/linearlyDecreasing.txt
+Week 1/JWST project/SFR-trials/sfr0.txt
+Week 1/JWST project/SFR-trials/sfr3.txt
+Week 1/JWST project/SFR-trials/sfrConstant.txt
+Week 1/JWST project/SFR-trials/sfrSingleburst.txt
+Week 1/JWST project/SFR-trials/sfrSSP.txt
+Week 1/JWST project/SFR-trials/singleBurst2.txt
+Week 1/JWST project/SFR-trials/singleBurst1000.txt
+Week 1/JWST project/SFR-trials/sspSingleburst100.txt
+Week 1/JWST project/SFR-trials/user-defined-z5.4color
+Week 1/JWST project/SFR-trials/user-defined2.4color
+Week 1/JWST project/SFR-trials/zmag2.f
+Week 1/JWST project/TNG_50_library/library_galaxies.txt
+Week 1/JWST project/TNG_50_library/SFRH_gal_0.ASCII
+Week 1/JWST project/TNG_50_library/SFRH_gal_1.ASCII
+Week 1/JWST project/TNG_50_library/SFRH_gal_2.ASCII
+Week 1/JWST project/TNG_50_library/SFRH_gal_3.ASCII
+Week 1/JWST project/TNG_50_library/tmp.in
