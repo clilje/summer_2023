@@ -1,3 +1,12 @@
+"""
+This is an adapted file from the pygalaxev module on github.
+
+This was adjusted to use the SED files created by me and using the mm_evolution function 
+included in the BC03 code. 
+
+"""
+
+
 import numpy as np
 import h5py
 import pygalaxev_cosmology
@@ -9,6 +18,7 @@ import pandas as pd
 
 # this code reads in a CSP SED file and, given a galaxy redshift, calculates the magnitudes in a series of filters
 
+#t
 work_dir = 'TNG_50_library/'
 #pygalaxevdir = os.environ.get('PYGALAXEVDIR')
 #filtdir = pygalaxevdir+'/filters/'
