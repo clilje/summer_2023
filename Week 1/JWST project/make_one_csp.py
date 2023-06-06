@@ -20,72 +20,78 @@ age = dict(zip(redshifts,age_uni))
 
 # selects the stellar template library:
 output_number = 17
-galaxy_number = 2
+galaxy_number = [0,1,2,3,4,5]
 # Low-resolution 'BaSeL' library, Chabrier IMF
 ssp_dir = '../Miles_Atlas/Chabrier_IMF/'
 tempname = 'lr_BaSel'
 work_dir = './'
 ssp_dir = '../../'
-filename = 'Files_SFRH_TNG50/SFH_TNG50_out_'+str(output_number)+'_gal_'+str(galaxy_number)+'.txt'
-df = pd.read_csv(filename,header=None,sep="\s+| |  ",
-                       names=['output_number','redshift','galaxy ID',
-                              'BH mass','BH accretion rate',
-                              'bolLum1','bolLum2', 'lumXray1', 'lumXray2',
-                              'Mstar','DMmass','SFR','Z'],engine='python')
-print(df)
-redshift = np.flip(df['redshift'].to_numpy())
-sfr = np.flip(df['SFR'].to_numpy())
-data_out = np.zeros((len(redshift),2))
-birth = age[redshift[0]]
-x = 0
-while x < len(redshift):
-    data_out[x][0] = age[redshift[x]]-birth
-    data_out[x][1] = sfr[x]
-    x += 1
+for i in galaxy_number:
+    filename = 'Files_SFRH_TNG50/SFH_TNG50_out_'+str(output_number)+'_gal_'+str(i)+'.txt'
+    df = pd.read_csv(filename,header=None,sep="\s+| |  ",
+                        names=['output_number','redshift','galaxy ID',
+                                'BH mass','BH accretion rate',
+                                'bolLum1','bolLum2', 'lumXray1', 'lumXray2',
+                                'Mstar','DMmass','SFR','Z'],engine='python')
+    print(df)
+    redshift = np.flip(df['redshift'].to_numpy())
+    sfr = np.flip(df['SFR'].to_numpy())
+    data_out = np.zeros((len(redshift),2))
+    birth = age[redshift[0]]
+    x = 0
+    while x < len(redshift):
+        data_out[x][0] = age[redshift[x]]-birth
+        data_out[x][1] = sfr[x]
+        x += 1
 
 
-df2 = pd.DataFrame(data_out)
+    df2 = pd.DataFrame(data_out)
+        
+    df2.to_csv('TNG_50_library/SFRH_gal_'+str(i)+'.ASCII',header=None,index=False,sep='\t')
+    sfh_pars = 'TNG_50_library/SFRH_gal_'+str(i)+'.ASCII'
+    # Selects the metallicity:
+    a = df['Z'].to_numpy()
+    Z = a[a!=0][0]
     
-df2.to_csv('TNG_50_library/SFRH_gal_'+str(galaxy_number)+'.ASCII',header=None,index=False,sep='\t')
-sfh_pars = 'TNG_50_library/SFRH_gal_'+str(galaxy_number)+'.ASCII'
-# Selects the metallicity:
-a = df['Z'].to_numpy()
-Z = a[a!=0][-1]
+    if df['BH mass'].to_numpy()[0] != 0:
+        with open('TNG_50_library/library_galaxies_with_BH.txt', 'a') as f:
+            f.write(str(i)+','+str(data_out[-1][0])+','+str(df['Mstar'].to_numpy()[0])+','+str(df['BH mass'].to_numpy()[0])+','+str(df['bolLum2'].to_numpy()[0])+'\n')
 
-with open('TNG_50_library/library_galaxies.txt', 'a') as f:
-    f.write(str(galaxy_number)+','+str(data_out[-1][0])+','+str(df['Mstar'].to_numpy()[0])+'\n')
-
+    #write galaxy ID, age at end of SFR, mstar in msun, bhmass, AGN lum
+    with open('TNG_50_library/library_galaxies.txt', 'a') as f:
+        f.write(str(i)+','+str(data_out[-1][0])+','+str(df['Mstar'].to_numpy()[0])+','+str(df['BH mass'].to_numpy()[0])+','+str(df['bolLum2'].to_numpy()[0])+'\n')
 
 
-#Z = 0.02 # solar metallicity
-Zcode_dic = {0.0001:'m22', 0.0004:'m32', 0.004:'m42', 0.008:'m52', 0.02:'m62', 0.05:'m72', 0.1:'m82'}
+
+    #Z = 0.02 # solar metallicity
+    Zcode_dic = {0.0001:'m22', 0.0004:'m32', 0.004:'m42', 0.008:'m52', 0.02:'m62', 0.05:'m72', 0.1:'m82'}
 
 
-res = bisect.bisect_left(list(Zcode_dic.keys()), Z)
-print(res)
-print(len(list(Zcode_dic.keys())))
-if res == 7:
-    Zcode  = list(Zcode_dic.values())[res-1]
-elif res == 1:
-    Zcode = list(Zcode_dic.values())[0]
-else:
-    if abs((list(Zcode_dic.keys())[res]-Z)) < abs(list(Zcode_dic.keys())[res-1]-Z):
-        Zcode = list(Zcode_dic.values())[res]
+    res = bisect.bisect_left(list(Zcode_dic.keys()), Z)
+    print(res)
+    print(len(list(Zcode_dic.keys())))
+    if res == 7:
+        Zcode  = list(Zcode_dic.values())[res-1]
+    elif res == 1:
+        Zcode = list(Zcode_dic.values())[0]
     else:
-        Zcode = list(Zcode_dic.values())[res-1]
-#Zcode = Zcode_dic[Z]
-print(Zcode)
-print(Z)
+        if abs((list(Zcode_dic.keys())[res]-Z)) < abs(list(Zcode_dic.keys())[res-1]-Z):
+            Zcode = list(Zcode_dic.values())[res]
+        else:
+            Zcode = list(Zcode_dic.values())[res-1]
+    #Zcode = Zcode_dic[Z]
+    print(Zcode)
+    print(Z)
 
-tau = 1. # exponential star formation history timescale (in Gyr)
-tau_V = 0.15 # dust effective optical depth
-mu = 0.4 # fraction of attenuation due to diffuse interstellar medium
-epsilon = 0. # gas recycling (no recycling if set to zero)
+    tau = 1. # exponential star formation history timescale (in Gyr)
+    tau_V = 0.15 # dust effective optical depth
+    mu = 0.4 # fraction of attenuation due to diffuse interstellar medium
+    epsilon = 0. # gas recycling (no recycling if set to zero)
 
-#isedname = ssp_dir+'bc2003_%s_%s_chab_ssp.ised'%(tempname, Zcode)
-#isedname = 'bc2003_lr_BaSeL_m62_chab_ssp.ised'
-isedname = 'bc2003_lr_BaSeL_'+str(Zcode)+'_chab_ssp.ised'
-#outname = 'TNG_50_library/bc03_Z=%6.4f_tau=%5.3f_tV=%5.3f_mu=%3.1f_eps=%5.3f'%(Z, tau, tau_V, mu, epsilon)
-outname = 'TNG_50_library/TNG50_out_'+str(output_number)+'_gal_'+str(galaxy_number)
-pygalaxev.run_csp_galaxev(isedname, outname, sfh='custom', sfh_pars=sfh_pars, tau_V=tau_V,mu=mu, epsilon=0., work_dir=work_dir)
+    #isedname = ssp_dir+'bc2003_%s_%s_chab_ssp.ised'%(tempname, Zcode)
+    #isedname = 'bc2003_lr_BaSeL_m62_chab_ssp.ised'
+    isedname = 'bc2003_lr_BaSeL_'+str(Zcode)+'_chab_ssp.ised'
+    #outname = 'TNG_50_library/bc03_Z=%6.4f_tau=%5.3f_tV=%5.3f_mu=%3.1f_eps=%5.3f'%(Z, tau, tau_V, mu, epsilon)
+    outname = 'TNG_50_library/TNG50_out_'+str(output_number)+'_gal_'+str(i)
+    pygalaxev.run_csp_galaxev(isedname, outname, sfh='custom', sfh_pars=sfh_pars, tau_V=tau_V,mu=mu, epsilon=0., work_dir=work_dir)
 

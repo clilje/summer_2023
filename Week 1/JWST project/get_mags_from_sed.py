@@ -1,12 +1,3 @@
-"""
-This is an adapted file from the pygalaxev module on github.
-
-This was adjusted to use the SED files created by me and using the mm_evolution function 
-included in the BC03 code. 
-
-"""
-
-
 import numpy as np
 import h5py
 import pygalaxev_cosmology
@@ -18,7 +9,6 @@ import pandas as pd
 
 # this code reads in a CSP SED file and, given a galaxy redshift, calculates the magnitudes in a series of filters
 
-#t
 work_dir = 'TNG_50_library/'
 #pygalaxevdir = os.environ.get('PYGALAXEVDIR')
 #filtdir = pygalaxevdir+'/filters/'
@@ -28,7 +18,7 @@ work_dir = 'TNG_50_library/'
 
 #log_mstar = 11.
 output_number = 17
-galaxy_number = 2
+#galaxy_number = [0,1,2,3,4,5]
 tau = 1.
 tau_V = 0.15
 mu = 0.4
@@ -73,20 +63,22 @@ def get_mags(age_today, filters, filename,outname, input_tmpname='tmp.in', outpu
 if output_number == 17:
     redshift = 5
 
-cspname = 'TNG_50_library/TNG50_out_'+str(output_number)+'_gal_'+str(galaxy_number)
 df = pd.read_csv(work_dir+'library_galaxies.txt',header=None,
-                       names=['galaxy number','age end SFR','Mstar end SFR'])
-print(df)
+                    names=['galaxy number','age end SFR','Mstar end SFR','BH mass','BH Lum'])
 
-#age = 11. # time since beginning of star formation (in Gyr)
-age = df['age end SFR'][df['galaxy number'] == galaxy_number].values[0]
-mstar = df['Mstar end SFR'][df['galaxy number'] == galaxy_number].values[0]
-isedname = str(cspname)+'.ised'
-print(age)
-if redshift == 5:
-    #age_today = (13.798e+09-1.173e+09) + age
-    age_today = 12.636e+09 + age
-age_today = age_today*1e-09
-filter_list = [278,279,280,281,282,283,286,291]
-outname = 'TNG_50_library/TNG50_out_'+str(output_number)+'_gal_'+str(galaxy_number)
-get_mags(age_today, filter_list, isedname,outname)
+
+    #age = 11. # time since beginning of star formatio
+for x in df['galaxy number'].to_numpy():
+    cspname = 'TNG_50_library/TNG50_out_'+str(output_number)+'_gal_'+str(x)
+    #age = 11. # time since beginning of star formation (in Gyr)
+    age = df['age end SFR'][df['galaxy number'] == x].values[0]
+    mstar = df['Mstar end SFR'][df['galaxy number'] == x].values[0]
+    isedname = str(cspname)+'.ised'
+    print(age)
+    if redshift == 5:
+        #age_today = (13.798e+09-1.173e+09) + age
+        age_today = 12.636e+09 + age
+    age_today = age_today*1e-09
+    filter_list = [278,279,280,281,282,283,286,291]
+    outname = 'TNG_50_library/TNG50_out_'+str(output_number)+'_gal_'+str(x)
+    get_mags(age_today, filter_list, isedname,outname)
