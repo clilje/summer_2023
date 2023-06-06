@@ -11,6 +11,7 @@ def create_galaxevpl_config(configname, cspname, outname, age, wrange=None):
     if len(age) > 1:
         for i in range(len(age)-1):
             age_str += ', %4.3f'%age[i+1]
+            
 
     if wrange is not None:
         wrange_str = '%f, %f'%(wrange[0], wrange[1])
