@@ -227,3 +227,116 @@ Week 1/JWST project/Filter/F090W_JWST_NIRCAM.txt
 Week 1/JWST project/Filter/F0560W_JWST_MIRI.txt
 Week 1/JWST project/Filter/F1130W_JWST_MIRI.txt
 Week 1/JWST project/Filter/F2550W_JWST_MIRI.txt
+Week 1/JWST project/Observation Data/data_mstar_sfr.txt
+Week 1/JWST project/Observation Data/Data_observations_z0.txt
+Week 1/JWST project/Simulation Data/README_simulationcatalogs.txt
+Week 1/JWST project/Simulation Data/TNG50/catalog_Habouzit_TNG50_out_2_epsr01_correctlum_units_central.txt
+Week 1/JWST project/Simulation Data/TNG50/catalog_Habouzit_TNG50_out_3_epsr01_correctlum_units_central.txt
+Week 1/JWST project/Simulation Data/TNG50/catalog_Habouzit_TNG50_out_4_epsr01_correctlum_units_central.txt
+Week 1/JWST project/Simulation Data/TNG50/catalog_Habouzit_TNG50_out_5_epsr01_correctlum_units_central.txt
+Week 1/JWST project/Simulation Data/TNG50/catalog_Habouzit_TNG50_out_6_epsr01_correctlum_units_central.txt
+Week 1/JWST project/Simulation Data/TNG50/catalog_Habouzit_TNG50_out_7_epsr01_correctlum_units_central.txt
+Week 1/JWST project/Simulation Data/TNG50/catalog_Habouzit_TNG50_out_8_epsr01_correctlum_units_central.txt
+Week 1/JWST project/Simulation Data/TNG50/catalog_Habouzit_TNG50_out_9_epsr01_correctlum_units_central.txt
+Week 1/JWST project/Simulation Data/TNG50/catalog_Habouzit_TNG50_out_11_epsr01_correctlum_units_central.txt
+Week 1/JWST project/Simulation Data/TNG50/catalog_Habouzit_TNG50_out_12_epsr01_correctlum_units_central.txt
+Week 1/JWST project/Simulation Data/TNG50/catalog_Habouzit_TNG50_out_13_epsr01_correctlum_units_central.txt
+Week 1/JWST project/Simulation Data/TNG50/catalog_Habouzit_TNG50_out_15_epsr01_correctlum_units_central.txt
+Week 1/JWST project/Simulation Data/TNG50/catalog_Habouzit_TNG50_out_17_epsr01_correctlum_units_central.txt
+Week 1/JWST project/Simulation Data/TNG50/catalog_Habouzit_TNG50_out_19_epsr01_correctlum_units_central.txt
+Week 1/JWST project/Simulation Data/TNG50/catalog_Habouzit_TNG50_out_21_epsr01_correctlum_units_central.txt
+Week 1/JWST project/Simulation Data/TNG50/catalog_Habouzit_TNG50_out_23_epsr01_correctlum_units_central.txt
+Week 1/JWST project/Simulation Data/TNG50/catalog_Habouzit_TNG50_out_25_epsr01_correctlum_units_central.txt
+Week 1/JWST project/Simulation Data/TNG50/catalog_Habouzit_TNG50_out_33_epsr01_correctlum_units_central.txt
+Week 1/JWST project/Simulation Data/TNG50/catalog_Habouzit_TNG50_out_40_epsr01_correctlum_units_central.txt
+Week 1/JWST project/Simulation Data/TNG50/catalog_Habouzit_TNG50_out_50_epsr01_correctlum_units_central.txt
+Week 1/JWST project/Simulation Data/TNG50/catalog_Habouzit_TNG50_out_67_epsr01_correctlum_units_central.txt
+Week 1/JWST project/Simulation Data/TNG50/catalog_Habouzit_TNG50_out_99_epsr01_correctlum_units_central.txt
+Week 1/JWST project/TNG_50_library/TNG50_out_11_gal_384tau=0.1mu=0.1tau=0.1mu=0.1_age=00.492.sed
+Week 1/JWST project/TNG_50_library/TNG50_out_11_gal_384tau=0.1mu=0.2tau=0.1mu=0.2_age=00.492.sed
+Week 1/JWST project/TNG_50_library/TNG50_out_11_gal_384tau=0.1mu=0.3tau=0.1mu=0.3_age=00.492.sed
+Week 1/JWST project/TNG_50_library/TNG50_out_11_gal_384tau=0.1mu=0.4tau=0.1mu=0.4_age=00.492.sed
+Week 1/JWST project/TNG_50_library/TNG50_out_11_gal_384tau=0.1mu=0.5tau=0.1mu=0.5_age=00.492.sed
+Week 1/JWST project/TNG_50_library/TNG50_out_11_gal_384tau=0.1mu=0.6tau=0.1mu=0.6_age=00.492.sed
+Week 1/JWST project/TNG_50_library/TNG50_out_11_gal_384tau=0.1mu=0.7tau=0.1mu=0.7_age=00.492.sed
+Week 1/JWST project/TNG_50_library/TNG50_out_11_gal_384tau=0.1mu=0.8tau=0.1mu=0.8_age=00.492.sed
+Week 1/JWST project/TNG_50_library/TNG50_out_11_gal_384tau=0.1mu=0.9tau=0.1mu=0.9_age=00.492.sed
+Week 1/JWST project/TNG_50_library/TNG50_out_11_gal_384tau=0.1mu=0tau=0.1mu=0_age=00.492.sed
+Week 1/JWST project/TNG_50_library/TNG50_out_11_gal_384tau=0.1mu=1tau=0.1mu=1_age=00.492.sed
+Week 1/JWST project/TNG_50_library/TNG50_out_11_gal_384tau=0.5mu=0.1tau=0.5mu=0.1_age=00.492.sed
+Week 1/JWST project/TNG_50_library/TNG50_out_11_gal_384tau=0.5mu=0.2tau=0.5mu=0.2_age=00.492.sed
+Week 1/JWST project/TNG_50_library/TNG50_out_11_gal_384tau=0.5mu=0.3tau=0.5mu=0.3_age=00.492.sed
+Week 1/JWST project/TNG_50_library/TNG50_out_11_gal_384tau=0.5mu=0.4tau=0.5mu=0.4_age=00.492.sed
+Week 1/JWST project/TNG_50_library/TNG50_out_11_gal_384tau=0.5mu=0.5tau=0.5mu=0.5_age=00.492.sed
+Week 1/JWST project/TNG_50_library/TNG50_out_11_gal_384tau=0.5mu=0.6tau=0.5mu=0.6_age=00.492.sed
+Week 1/JWST project/TNG_50_library/TNG50_out_11_gal_384tau=0.5mu=0.7tau=0.5mu=0.7_age=00.492.sed
+Week 1/JWST project/TNG_50_library/TNG50_out_11_gal_384tau=0.5mu=0.8tau=0.5mu=0.8_age=00.492.sed
+Week 1/JWST project/TNG_50_library/TNG50_out_11_gal_384tau=0.5mu=0.9tau=0.5mu=0.9_age=00.492.sed
+Week 1/JWST project/TNG_50_library/TNG50_out_11_gal_384tau=0.5mu=0tau=0.5mu=0_age=00.492.sed
+Week 1/JWST project/TNG_50_library/TNG50_out_11_gal_384tau=0.5mu=1tau=0.5mu=1_age=00.492.sed
+Week 1/JWST project/TNG_50_library/TNG50_out_11_gal_384tau=1mu=0.1tau=1mu=0.1_age=00.492.sed
+Week 1/JWST project/TNG_50_library/TNG50_out_11_gal_384tau=1mu=0.2tau=1mu=0.2_age=00.492.sed
+Week 1/JWST project/TNG_50_library/TNG50_out_11_gal_384tau=1mu=0.3tau=1mu=0.3_age=00.492.sed
+Week 1/JWST project/TNG_50_library/TNG50_out_11_gal_384tau=1mu=0.4tau=1mu=0.4_age=00.492.sed
+Week 1/JWST project/TNG_50_library/TNG50_out_11_gal_384tau=1mu=0.5tau=1mu=0.5_age=00.492.sed
+Week 1/JWST project/TNG_50_library/TNG50_out_11_gal_384tau=1mu=0.6tau=1mu=0.6_age=00.492.sed
+Week 1/JWST project/TNG_50_library/TNG50_out_11_gal_384tau=1mu=0.7tau=1mu=0.7_age=00.492.sed
+Week 1/JWST project/TNG_50_library/TNG50_out_11_gal_384tau=1mu=0.8tau=1mu=0.8_age=00.492.sed
+Week 1/JWST project/TNG_50_library/TNG50_out_11_gal_384tau=1mu=0.9tau=1mu=0.9_age=00.492.sed
+Week 1/JWST project/TNG_50_library/TNG50_out_11_gal_384tau=1mu=0tau=1mu=0_age=00.492.sed
+Week 1/JWST project/TNG_50_library/TNG50_out_11_gal_384tau=1mu=1tau=1mu=1_age=00.492.sed
+Week 1/JWST project/TNG_50_library/TNG50_out_11_gal_384tau=2mu=0.1tau=2mu=0.1_age=00.492.sed
+Week 1/JWST project/TNG_50_library/TNG50_out_11_gal_384tau=2mu=0.2tau=2mu=0.2_age=00.492.sed
+Week 1/JWST project/TNG_50_library/TNG50_out_11_gal_384tau=2mu=0.3tau=2mu=0.3_age=00.492.sed
+Week 1/JWST project/TNG_50_library/TNG50_out_11_gal_384tau=2mu=0.4tau=2mu=0.4_age=00.492.sed
+Week 1/JWST project/TNG_50_library/TNG50_out_11_gal_384tau=2mu=0.5tau=2mu=0.5_age=00.492.sed
+Week 1/JWST project/TNG_50_library/TNG50_out_11_gal_384tau=2mu=0.6tau=2mu=0.6_age=00.492.sed
+Week 1/JWST project/TNG_50_library/TNG50_out_11_gal_384tau=2mu=0.7tau=2mu=0.7_age=00.492.sed
+Week 1/JWST project/TNG_50_library/TNG50_out_11_gal_384tau=2mu=0.8tau=2mu=0.8_age=00.492.sed
+Week 1/JWST project/TNG_50_library/TNG50_out_11_gal_384tau=2mu=0.9tau=2mu=0.9_age=00.492.sed
+Week 1/JWST project/TNG_50_library/TNG50_out_11_gal_384tau=2mu=0tau=2mu=0_age=00.492.sed
+Week 1/JWST project/TNG_50_library/TNG50_out_11_gal_384tau=2mu=1tau=2mu=1_age=00.492.sed
+Week 1/JWST project/TNG_50_library/TNG50_out_11_gal_384tau=3mu=0.1tau=3mu=0.1_age=00.492.sed
+Week 1/JWST project/TNG_50_library/TNG50_out_11_gal_384tau=3mu=0.2tau=3mu=0.2_age=00.492.sed
+Week 1/JWST project/TNG_50_library/TNG50_out_11_gal_384tau=3mu=0.3tau=3mu=0.3_age=00.492.sed
+Week 1/JWST project/TNG_50_library/TNG50_out_11_gal_384tau=3mu=0.4tau=3mu=0.4_age=00.492.sed
+Week 1/JWST project/TNG_50_library/TNG50_out_11_gal_384tau=3mu=0.5tau=3mu=0.5_age=00.492.sed
+Week 1/JWST project/TNG_50_library/TNG50_out_11_gal_384tau=3mu=0.6tau=3mu=0.6_age=00.492.sed
+Week 1/JWST project/TNG_50_library/TNG50_out_11_gal_384tau=3mu=0.7tau=3mu=0.7_age=00.492.sed
+Week 1/JWST project/TNG_50_library/TNG50_out_11_gal_384tau=3mu=0.8tau=3mu=0.8_age=00.492.sed
+Week 1/JWST project/TNG_50_library/TNG50_out_11_gal_384tau=3mu=0.9tau=3mu=0.9_age=00.492.sed
+Week 1/JWST project/TNG_50_library/TNG50_out_11_gal_384tau=3mu=0tau=3mu=0_age=00.492.sed
+Week 1/JWST project/TNG_50_library/TNG50_out_11_gal_384tau=3mu=1tau=3mu=1_age=00.492.sed
+Week 1/JWST project/TNG_50_library/TNG50_out_11_gal_384tau=4mu=0.1tau=4mu=0.1_age=00.492.sed
+Week 1/JWST project/TNG_50_library/TNG50_out_11_gal_384tau=4mu=0.2tau=4mu=0.2_age=00.492.sed
+Week 1/JWST project/TNG_50_library/TNG50_out_11_gal_384tau=4mu=0.3tau=4mu=0.3_age=00.492.sed
+Week 1/JWST project/TNG_50_library/TNG50_out_11_gal_384tau=4mu=0.4tau=4mu=0.4_age=00.492.sed
+Week 1/JWST project/TNG_50_library/TNG50_out_11_gal_384tau=4mu=0.5tau=4mu=0.5_age=00.492.sed
+Week 1/JWST project/TNG_50_library/TNG50_out_11_gal_384tau=4mu=0.6tau=4mu=0.6_age=00.492.sed
+Week 1/JWST project/TNG_50_library/TNG50_out_11_gal_384tau=4mu=0.7tau=4mu=0.7_age=00.492.sed
+Week 1/JWST project/TNG_50_library/TNG50_out_11_gal_384tau=4mu=0.8tau=4mu=0.8_age=00.492.sed
+Week 1/JWST project/TNG_50_library/TNG50_out_11_gal_384tau=4mu=0.9tau=4mu=0.9_age=00.492.sed
+Week 1/JWST project/TNG_50_library/TNG50_out_11_gal_384tau=4mu=0tau=4mu=0_age=00.492.sed
+Week 1/JWST project/TNG_50_library/TNG50_out_11_gal_384tau=4mu=1tau=4mu=1_age=00.492.sed
+Week 1/JWST project/TNG_50_library/TNG50_out_11_gal_384tau=5mu=0.1tau=5mu=0.1_age=00.492.sed
+Week 1/JWST project/TNG_50_library/TNG50_out_11_gal_384tau=5mu=0.2tau=5mu=0.2_age=00.492.sed
+Week 1/JWST project/TNG_50_library/TNG50_out_11_gal_384tau=5mu=0.3tau=5mu=0.3_age=00.492.sed
+Week 1/JWST project/TNG_50_library/TNG50_out_11_gal_384tau=5mu=0.4tau=5mu=0.4_age=00.492.sed
+Week 1/JWST project/TNG_50_library/TNG50_out_11_gal_384tau=5mu=0.5tau=5mu=0.5_age=00.492.sed
+Week 1/JWST project/TNG_50_library/TNG50_out_11_gal_384tau=5mu=0.6tau=5mu=0.6_age=00.492.sed
+Week 1/JWST project/TNG_50_library/TNG50_out_11_gal_384tau=5mu=0.7tau=5mu=0.7_age=00.492.sed
+Week 1/JWST project/TNG_50_library/TNG50_out_11_gal_384tau=5mu=0.8tau=5mu=0.8_age=00.492.sed
+Week 1/JWST project/TNG_50_library/TNG50_out_11_gal_384tau=5mu=0.9tau=5mu=0.9_age=00.492.sed
+Week 1/JWST project/TNG_50_library/TNG50_out_11_gal_384tau=5mu=0tau=5mu=0_age=00.492.sed
+Week 1/JWST project/TNG_50_library/TNG50_out_11_gal_384tau=5mu=1tau=5mu=1_age=00.492.sed
+Week 1/JWST project/TNG_50_library/TNG50_out_11_gal_384tau=6mu=0.1tau=6mu=0.1_age=00.492.sed
+Week 1/JWST project/TNG_50_library/TNG50_out_11_gal_384tau=6mu=0.2tau=6mu=0.2_age=00.492.sed
+Week 1/JWST project/TNG_50_library/TNG50_out_11_gal_384tau=6mu=0.3tau=6mu=0.3_age=00.492.sed
+Week 1/JWST project/TNG_50_library/TNG50_out_11_gal_384tau=6mu=0.4tau=6mu=0.4_age=00.492.sed
+Week 1/JWST project/TNG_50_library/TNG50_out_11_gal_384tau=6mu=0.5tau=6mu=0.5_age=00.492.sed
+Week 1/JWST project/TNG_50_library/TNG50_out_11_gal_384tau=6mu=0.6tau=6mu=0.6_age=00.492.sed
+Week 1/JWST project/TNG_50_library/TNG50_out_11_gal_384tau=6mu=0.7tau=6mu=0.7_age=00.492.sed
+Week 1/JWST project/TNG_50_library/TNG50_out_11_gal_384tau=6mu=0.8tau=6mu=0.8_age=00.492.sed
+Week 1/JWST project/TNG_50_library/TNG50_out_11_gal_384tau=6mu=0.9tau=6mu=0.9_age=00.492.sed
+Week 1/JWST project/TNG_50_library/TNG50_out_11_gal_384tau=6mu=0tau=6mu=0_age=00.492.sed
+Week 1/JWST project/TNG_50_library/TNG50_out_11_gal_384tau=6mu=1tau=6mu=1_age=00.492.sed
