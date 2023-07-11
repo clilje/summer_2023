@@ -1,0 +1,9 @@
+Nebular emission: Adding to the pipeline
+
+choose file by:
+metallicity: nebular_emission_Z0001.txt
+(rerun library or check SFRH file)
+ionization parameter (log(Us)) (curtis-lake, polynomial of Z, available [-1 to -4]) (use log(U) = ....)
+dust-to-metal-ratio (xid) (curtis-lake = 0.1)
+hydrogen gas density (nh) (curtis-lake = 100)
+linewidth (km/s) = 300 km/s
